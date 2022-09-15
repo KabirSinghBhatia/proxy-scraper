@@ -1,0 +1,29 @@
+roadmap
+
+start_engine.py
+
+-- contains user args
+-- contains default parameter
+-- list available command in args
+-- load all modules
+-- run modules as multithreading
+-- skip and terminate particular modules
+
+**Argument**
+
+-- select type of proxy elite/anon/trans (default = elite)
+-- select proxy country (default = US)
+-- select list/single name of user-agent (User-agent:chrome based)
+-- protocol HTTP/socks (deafults = http)
+
+proxy-modules (folder)
+
+- contains list of site i'm scraping through
+- contains folder having site-name(any name)
+
+each sub_folder of proxy modules contains
+
+- init.py
+- also main function in the main py should be start
+- main py named as engine.py
+ 
