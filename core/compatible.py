@@ -61,7 +61,6 @@ def logo():
 
         - Divyansh Jain
         - Kabir Singh Bhatia
-        - Kush Thakker
     '''
 
 def output_to_file(proxy_list=[], filename=datetime.now().strftime("%d%m%Y%H%M%S")):

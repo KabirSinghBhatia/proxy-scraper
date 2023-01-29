@@ -39,7 +39,7 @@ def load_external_modules():
         True if success otherwise None
     """
 
-    external_modules = ["argparse","requests","os","sys","beautifulsoup"]
+    external_modules = ["argparse","requests","os","sys","beautifulsoup","proxy_checker"]
 
     for module in external_modules:
         try:
